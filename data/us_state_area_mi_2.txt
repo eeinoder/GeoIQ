@@ -1,0 +1,53 @@
+Alabama AL 52419
+Alaska AK 663267
+Arizona AZ 113998
+Arkansas AR  53179
+California CA 163695
+Colorado CO 104093
+Connecticut CT 5544
+Delaware DE 2489
+District of Columbia DC  68
+Florida FL  65755
+Georgia GA  59425
+Hawaii HI  10931
+Idaho ID  83570
+Illinois IL  57914
+Indiana IN  36418
+Iowa IA  56271
+Kansas KS  82276
+Kentucky KY  40410
+Louisiana LA  51840
+Maine ME  35385
+Maryland MD  12407
+Massachussets MA  10555
+Michigan MI  96716
+Minnesota MN  86938
+Mississippi MS  48431
+Missouri MO  69704
+Montana MT 147042
+Nebraska NE  77353
+Nevada NV 110560
+New Hampshire NH 9350
+New Jersey NJ 8722
+New Mexico NM 121589
+New York NY  54556
+North Carolina NC  53818
+North Dakota ND  70700
+Ohio OH  44825
+Oklahoma OK  69899
+Oregon OR  98380
+Pennysylvania PA  46056
+Puerto Rico PR 3515
+Rhode Island RI 1545
+South Carolina SC  32020
+South Dakota SD  77353
+Tennessee TN  42144
+Texas TX 268580
+United States US 3794083
+Utah UT  84898
+Vermont VT 9615
+Virginia VA  42774
+Washington WA  71300
+West Virginia WV  24230
+Wisconsin WI  65498
+Wyoming WY  97813

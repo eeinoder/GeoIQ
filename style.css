@@ -1,0 +1,83 @@
+/* style.css */
+
+html, body {
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  user-select: none;
+}
+
+#game_div, #menu_div, #report_div {
+  position: relative;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0% 5% 0%;
+  width: 30%;
+  height: 40%;
+  border: 2px solid black;
+}
+#game_div {
+  z-index: 8;
+}
+#menu_div {
+  z-index: 1;
+}
+#report_div {
+  z-index: 9;
+}
+
+#game_prompt, #answer_correct, #answer_wrong {
+  text-align: center;
+  user-select: none;
+}
+
+#game_buttons_div {
+  position: absolute;
+  /* padding: 2% 2% 2%;
+  width: 80%;
+  height: 60%; */
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 1px solid black; */
+}
+
+.game_button {
+  width: 9vw;
+  height: 12vh;
+}
+
+#next_question_div {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.next_question_button {
+  /* move button to right. right justify? */
+  position: absolute;
+  left: 50%;
+}
+
+#score_keeper_div {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  /* transform: translate(-50%, -50%); */
+}
+
+#close_report_button {
+  position: absolute;
+  top: 3%;
+  left: 93%;
+}
+
+/* ************************************************************************** */
+
+.hidden {
+  display: none;
+}

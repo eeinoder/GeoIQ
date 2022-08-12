@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta http-equiv="X-UA-Compatible" content="ie=edge-->
+    <title>GeoIQ</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="title">GeoIQ</h1>
+
+    <!-- Menu Container -->
+    <div id="menu_div" class="">
+      <p id="welcome_text_1">Are you a Geo-Wiz or a Geo-Dumbass??</p>
+      <p id="welcome_text_2">Press <button id="start_button">START</button> to find out!</p>
+    </div>
+
+    <!-- Game Container -->
+    <div id="game_div" class="hidden">
+      <p id="game_prompt">Which is BIGGER?</p>
+      <p id="answer_correct" class="hidden" style="color:green;">CORRECT!</p>
+      <p id="answer_wrong" class="hidden" style="color:red;">WRONG</p>
+      <div id="game_buttons_div">
+        <button class="game_button" id='left_button'>Left</button>
+        <button class="game_button" id='right_button'>Right</button>
+      </div>
+      <div id="next_question_div" class="hidden">
+        <p id="state_data_p1">BLANK1 is x square miles.</p>
+        <p id="state_data_p2">BLANK2 is y square miles.</p>
+        <button id="next_question_button" style="float:right;">Next >></button>
+        <button id="restart_button" class="hidden">RESTART</button>
+        <button id="report_button" class="hidden" style="float:right;">REPORT</button>
+      </div>
+      <!-- Score Keeper -->
+      <div id="score_keeper_div" class="">
+        <p id="hi_score_p" >High Score: 0</p>
+        <p id="score_p">Score: 0</p>
+      </div>
+    </div>
+
+    <div id="report_div" class="hidden">
+      <h2 id="iq_title">Title: Geo-Dumbass</h2>
+      <h2 id="iq_score">IQ: 0</h2>
+      <h3 id="iq_text">How...?</h3>
+      <button id="close_report_button">X</button>
+    </div>
+
+	  <script src="main.js"></script>
+  </body>
+</html>
